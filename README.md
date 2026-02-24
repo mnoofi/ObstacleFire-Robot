@@ -8,6 +8,16 @@ An intelligent autonomous system for real-time fire detection and suppression, f
 
 ## 📸 Project Preview
 ![Robot Image](rproject.png)
+## 🔌 Circuit & Wiring Diagram
+To ensure stability, the power for the motors is isolated using 18650 batteries, and the sensors are mapped as follows:
+
+![Circuit Diagram](circutr.png)
+
+### 📍 Pin Mapping Reference:
+* **Ultrasonic Sensor:** Trig (A3), Echo (A4).
+* **Flame Sensors:** Left (A0), Center (A1), Right (A2).
+* **Actuators:** Pump Relay (D7), Hose Servo (D3).
+* **Motor Driver (L298N):** Pins 5, 6, 9, 10.
 
 ## 🛠️ Hardware Setup
 * **Microcontroller:** Arduino Uno.
